@@ -1,0 +1,327 @@
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: \5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+    overflow: hidden;
+    word-break: break-all;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  #app {
+    min-width: 600px;
+    margin-top: 0;
+  }
+  .wrap {
+    overflow: hidden;
+  }
+  .content {
+    width: auto;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 200px;
+    overflow: auto;
+  }
+  .el-dialog__header {
+    text-align: left;
+  }
+
+  /*=================element-ui reset style start================*/
+  .el-dialog__wrapper .el-button--primary, .el-message-box__wrapper .el-button--primary {
+    width: 100px;
+    background: #79a7ff;
+    border: 1px solid #79a7ff;
+  }
+  .el-dialog__wrapper .el-button--default, .el-message-box__wrapper .el-button--default  {
+    width: 100px;
+  }
+  .el-message-box {
+    position: relative;
+    height: 170px;
+  }
+  .el-message-box .el-button--default {
+    position: absolute;
+    right: 20px;
+    top: 120px;
+  }
+  .el-message-box .el-message-box__btns button:nth-child(2) {
+    position: absolute;
+    right: 130px;
+    top: 120px;
+  }
+  .el-pagination {
+    text-align: center;
+  }
+  .el-pager li.active {
+    background: #79a7ff;
+  }
+  .el-tooltip__rel {
+    cursor: pointer;
+  }
+  .el-table .cell, .el-table th>div {
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+  }
+  .font-600 {
+    /*font-weight: 600;*/
+  }
+  .el-dialog__body {
+    text-align: center;
+    padding: 20px;
+  }
+  .el-form-item.is-required .el-form-item__label:before {
+    display: none !important;
+  }
+  .el-dialog__footer {
+    padding: 0 20px 15px;
+  }
+  .show-pic{
+    max-height: 400px;
+    width: 300px;
+  }
+  .el-select-dropdown {
+    z-index: 9999 !important;
+  }
+  .el-pagination__editor {
+    width: 35px !important;
+  }
+  .el-dialog__header{
+    padding: 18px 20px 10px;
+  }
+  .el-dialog__title{
+    font-weight: 600;
+    color: #323232;
+  }
+  .el-dialog__close{
+    font-size: 14px;
+  }
+  .el-dialog__footer{
+    padding: 10px 20px 20px;
+  }
+  .dialog-footer {
+    text-align: right;
+  }
+  .t-right {
+    text-align: right;
+  }
+  .el-dialog--tiny {
+    width: 410px;
+  }
+
+
+  /*弹窗样式start*/
+  .dispatch-info {
+    font-size: 14px;
+    color: #646464;
+    margin: 0 30px;
+    border-bottom: 1px solid #e7e7e7; 
+  }
+  .dispatch-over {
+    overflow: hidden;
+  }  
+  .dispatch-part-1 {
+    width: 49%;
+    float: left;
+    margin-right: 2
+  }
+  .dispatch-part-2 {
+    float: left;
+    width: 49%;   
+  }
+  .dispatch-row {
+    overflow: hidden;
+    padding: 0 0 25px;
+  }
+  .dispatch-tip {
+    float: left;
+    margin-right: 20px;
+  }
+  .dispatch-txt {
+    overflow: hidden;
+    text-align: left;
+  }
+  .identity-info {   
+    margin: 25px 30px;
+    font-size: 14px;
+    position: relative;
+  }
+  .w570 {
+     width: 570px;
+  }
+  .identity-img {
+    position: absolute;
+    right: 175px;
+    top: 0px;
+    width: 160px;  
+    height: 198px;
+  }
+  .identity-img-text {
+    position: absolute;
+    right: 175px;
+    top: 210px;
+    width: 160px;  
+    height: 30px;
+    text-align: center;
+  }
+  .face-img {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 160px;   
+    height: 198px;
+  }
+  .face-img-text {
+    position: absolute;
+    right: 0;
+    top: 210px;
+    width: 160px;  
+    height: 30px;
+    text-align: center;
+  }
+  /*弹窗样式end*/
+  /*区域筛选样式start*/
+  .area-wrap {   
+    margin-bottom: 10px;
+  }
+  .area-tip {
+    float: left;
+    width: 90px;
+    text-align: left;
+    margin-right: 10px;
+    color: #646464 !important;
+    height: 32px;
+    line-height: 32px;
+  }
+  .area-list {
+    overflow: hidden;   
+    position: relative;      
+  } 
+  .area-list-single {    
+    overflow: hidden;
+    height: 32px;
+    width: 95%;
+  }   
+  .area-list-single li:hover {
+    color: #587ed1;
+  }
+  .area-list-multiple {
+    height: 32px;
+    width: 95%;
+  } 
+  .area-list li:nth-child(1) {
+    margin-right: 2%;
+  }
+  .area-list li {
+    float: left;
+    cursor: pointer;
+    height: 32px;
+    line-height: 32px;
+    width: 13%;
+    margin-right: 2%;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+  }
+  .area-list li.active {
+    color: #587ed1;
+    font-weight: bolder;
+  }
+  .area-list li a {
+    color: #646464 !important;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;    
+  }
+  .area-list li.active a {
+    color: #587ed1 !important;
+    font-weight: bolder;
+  }
+  .more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;    
+  } 
+  .more:hover {
+    color: #4db3ff;
+  }
+  /*区域筛选样式end*/
+
+  /*前置条件筛选start*/
+  .name-search {
+    float: left;
+    width: 450px;
+  }
+  .record .el-select .el-input {  
+    width: 150px;
+  }
+  .record .el-input-group__append {  
+    text-align: center;    
+  }
+  .record .btn-wrap {
+    margin-left: 30px;   
+  } 
+  .filter-wrap {
+    overflow: hidden;
+    padding: 0 30px 10px;
+    border-bottom: 1px solid #e0e6ed;   
+    color: #646464 !important;
+  }
+  .table-wrap {
+    margin: 20px 30px;
+  }
+  .el-input__inner {
+    font-size: 14px !important;
+  }  
+  /*前置条件筛选end*/
+
+  .black-pic {
+    width: 100%;
+  }
+  
+  /*级联查找start*/
+  .time-tip {
+    display: inline-block;
+    margin-right: 5px;
+    width: 90px;
+    text-align: left;
+    vertical-align: top;
+  }
+  .name-search {
+    float: left;
+    width: 450px;
+    margin-right: 10px;
+  }
+  .record .el-select .el-input {  
+    width: 150px;
+  }
+  .record .el-input-group__append {  
+    text-align: center;    
+  }
+  .record .btn-wrap {
+    margin-left: 30px;   
+  } 
+  .filter-wrap {
+    overflow: hidden;
+    padding: 0 30px 10px;
+    border-bottom: 1px solid #e0e6ed;   
+    color: #646464 !important;
+  }
+  .el-input-group__prepend .el-select .el-input__inner, 
+  .el-input-group__prepend .el-select:hover .el-input__inner {
+    color: #333 !important;
+  }
+  /*级联查找end*/
+
